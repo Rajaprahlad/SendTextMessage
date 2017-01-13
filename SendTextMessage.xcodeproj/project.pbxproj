@@ -14,6 +14,8 @@
 		A747D5371E271ECC00FCFB81 /* SendTextMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A747D5351E271ECC00FCFB81 /* SendTextMessage.xcdatamodeld */; };
 		A747D5391E271ECC00FCFB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A747D5381E271ECC00FCFB81 /* Assets.xcassets */; };
 		A747D53C1E271ECC00FCFB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A747D53A1E271ECC00FCFB81 /* LaunchScreen.storyboard */; };
+		A747D5451E271F7000FCFB81 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A747D5441E271F7000FCFB81 /* MessageUI.framework */; };
+		A747D5471E2726E900FCFB81 /* image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A747D5461E2726E900FCFB81 /* image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A747D5381E271ECC00FCFB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A747D53B1E271ECC00FCFB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A747D53D1E271ECD00FCFB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A747D5441E271F7000FCFB81 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A747D5461E2726E900FCFB81 /* image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A747D5451E271F7000FCFB81 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +49,10 @@
 		A747D51D1E271ECC00FCFB81 = {
 			isa = PBXGroup;
 			children = (
+				A747D5461E2726E900FCFB81 /* image.jpeg */,
 				A747D5281E271ECC00FCFB81 /* SendTextMessage */,
 				A747D5271E271ECC00FCFB81 /* Products */,
+				A747D5431E271F7000FCFB81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +87,14 @@
 				A747D52A1E271ECC00FCFB81 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A747D5431E271F7000FCFB81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A747D5441E271F7000FCFB81 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A747D53C1E271ECC00FCFB81 /* LaunchScreen.storyboard in Resources */,
+				A747D5471E2726E900FCFB81 /* image.jpeg in Resources */,
 				A747D5391E271ECC00FCFB81 /* Assets.xcassets in Resources */,
 				A747D5341E271ECC00FCFB81 /* Main.storyboard in Resources */,
 			);
